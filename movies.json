@@ -25,5 +25,14 @@
     "rating": 7.5,
     "description": "Paranormal investigators help a family.",
     "Lang":"JP"
+  },
+  {
+    "id": 4,
+    "title": "Demon Slayer: Episode 4",
+    "genre": "Horror",
+    "year": 2017,
+    "rating": 5,
+    "description": "Paranormal investigators help a family.",
+    "Lang":"JP"
   }
 ]

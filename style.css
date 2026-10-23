@@ -68,3 +68,37 @@ td{
     padding: 10px;
     width: 300px;
 }
+.movie table {
+    width: 100%;
+    table-layout: auto;
+    border-collapse: collapse;
+}
+.movie td {
+    padding: 4px 0;
+}
+.demon-slayer-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+table {
+    margin: 5px auto;
+    text-align: center;
+    width: 50%;}
+    .demon-slayer-image {
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.movie table {
+    width: 100%;
+    table-layout: auto;
+    border-collapse: collapse;
+}
+.movie td {
+    padding: 4px 0;
+}
