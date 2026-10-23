@@ -1,0 +1,70 @@
+.t1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 48px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 30px;
+    color: #FDFBF7;
+}
+.t1 h1{
+    margin: 0;
+    line-height: 1
+}
+.m{
+    color:#FF4FA3;
+}
+body{
+    background-color: #030312;
+}
+.search-box {
+    position: relative;
+    width: 90%;
+    margin: 20px auto;
+}
+.search-box i {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #FF4FA3;
+}
+.search {
+    width: 90%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    height: 60px;
+    padding: 0 10px;
+    font-size: 25px;
+    background-color: #0C0C1E;
+    color:#FDFBF7;
+}
+.movie-count{
+    color:#FF4FA3;
+    text-align: center;
+    font-size: 25px;
+}
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+td{
+    color:gray
+}
+.movie-style-one{
+    color:#FDFBF7;
+}
+.star {
+    color: #FF8C42;
+}
+.movie{
+    background-color: #0C0C1E;
+    border-radius: 15px;
+    padding: 10px;
+    width: 300px;
+}

@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../files/jquery-4.0.0.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>video</title>
 </head>
 <body>
-    <h1>Find Movies you'll Enjoy</h1>
-    <h1>Without the Hassle</h1>
-    <input type="text" id="search" class="search">
-    <p>All Movies</p>
+    <div class="t1">
+        <h1>Find <span class="m">Movies</span> you'll Enjoy</h1>
+        <h1>Without the Hassle</h1>
+    </div>
+    <div class="search-box">
+        <input type="text" id="search" class="search" placeholder="Search through thousands of movies">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    <p class="movie-count">All Movies</p>
     <div class="movies" id="movies">
 
     </div>
