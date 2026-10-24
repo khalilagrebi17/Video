@@ -1,7 +1,7 @@
 $.getJSON('movies.json',function(res){
     $.each(res,function(i,object){
         $('#movies').append(
-            "<div class='movie'>"+
+            "<div class='movie' id='movie-"+i+"'>"+/*I have added the (i) cuz maybe in the future i will need to access the movie by its index*/
                 "<img src='../Videos/pic.png' alt='video' class='demon-slayer-image'>"+
                 "<div class='movie-title'>"+object.title+"</div>"+
                 "<div class='movie-style-one'>"+
