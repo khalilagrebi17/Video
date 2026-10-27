@@ -91,10 +91,15 @@ body{
     margin: 10px 0;
     text-align: center;
     color: #FDFBF7;
-}
+}/*
 .movie:hover{
     transform: scale(1.05);
     transition: transform 0.3s ease;
+    background-color: #FF4FA3;
+    transition: all 0.4s ease;
+}*/
+.movie.selected {
+    transform: scale(1.05);
     background-color: #FF4FA3;
     transition: all 0.4s ease;
 }

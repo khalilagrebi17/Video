@@ -41,3 +41,30 @@ $('#search').keyup(function(){
     });
 });
 });
+$('#movies').on('click', '.movie', function() {
+    $('.movie').css('border-style', 'none');
+    $('.movie').css('transform', 'none');
+    $('.movie').css('background-color', '#0C0C1E');
+    $('.movie').css('transition', 'none');
+    $(this).css('transform', 'scale(1.05)');
+    $(this).css('background-color', '#FF4FA3');
+    $(this).css('transition', 'all 0.4s ease');
+});
+$('body').on('click',function(e){
+    if(e.target == this){
+        $('.movie').css('border-style', 'none');
+        $('.movie').css('transform', 'none');
+        $('.movie').css('background-color', '#0C0C1E');
+        $('.movie').css('transition', 'none');
+    }
+})
+$('#movies').on('mouseenter', '.movie', function(){
+    $(this).css('transform', 'scale(1.05)');
+    $(this).css('background-color', '#FF4FA3');
+    $(this).css('transition', 'all 0.4s ease');
+});
+
+$('#movies').on('mouseleave', '.movie', function(){
+    $(this).css('transform', 'scale(1)');
+    $(this).css('background-color', '');
+});
