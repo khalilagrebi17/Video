@@ -103,3 +103,15 @@ body{
     background-color: #FF4FA3;
     transition: all 0.4s ease;
 }
+.movieSelected{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    background-color: #FF4FA3;
+    transition: all 0.4s ease;
+}
+.movieUnselected{
+    transform: none;
+    transition: none;
+    background-color: #0C0C1E;
+    transition: none;
+}
