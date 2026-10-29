@@ -43,6 +43,12 @@ $('#search').keyup(function(){
         });
     });
 });
+//Here when the user click twice on a movie it will take to the movie page 
+$('#movies').on('click', '.movie', function() {
+    if(moveId == $(this).attr('id')){  //Condition to check if the user clicked twice on the same movie
+      window.location.href = '../Videos/[Anime4up.rest] KNY EP 01 [BD-FHD] [source].mp4';
+    } 
+}); 
 $('#movies').on('click', '.movie', function() {
     $('.movie').removeClass('movieSelected');
     $(this).addClass('movieSelected');
