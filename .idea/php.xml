@@ -10,6 +10,43 @@
     <option name="highlightLevel" value="WARNING" />
     <option name="transferred" value="true" />
   </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/runtime" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/composer" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/polyfill-php85" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/videoPlayerSystemWithSymfony/vendor/symfony/polyfill-mbstring" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.2" />
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
   </component>
