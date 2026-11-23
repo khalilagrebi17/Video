@@ -11,8 +11,10 @@ class data
         private int $year,
         private float $rating,
         private string $description,
-        private string $lang
-    ){}
+        private string $lang,
+        private string $url = ''
+    ) {}
+
     public function getId()
     {
         return $this->id;
@@ -82,6 +84,17 @@ class data
     {
         $this->lang = $lang;
     }
+
+    public function getUrl()
+    {
+        return $this->url;
+    }
+
+    public function setUrl($url)
+    {
+        $this->url = $url;
+    }
+
     public function toArray(): array
     {
         return [
@@ -91,7 +104,8 @@ class data
             'year' => $this->year,
             'rating' => $this->rating,
             'description' => $this->description,
-            'lang' => $this->lang
+            'lang' => $this->lang,
+            'url' => $this->url
         ];
     }
 }

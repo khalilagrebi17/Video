@@ -35,9 +35,9 @@ class mainController extends AbstractController
 
         return $this->json($result);
     }
-    #[Route('/test', name: 'test_route')]
-    public function test(): Response
-    {
-        return new Response('Symfony route works!');
+    #[Route('/api/movies/{id}', name: 'get_movie')]
+    public function getMovie(dataRep $dataRep,string $id): Response {
+        $res = $dataRep->findOne((int)$id);
+        return $this->json($res);
     }
 }
