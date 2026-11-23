@@ -82,4 +82,16 @@ class data
     {
         $this->lang = $lang;
     }
+    public function toArray(): array
+    {
+        return [
+            'id' => $this->id,
+            'title' => $this->title,
+            'genre' => $this->genre,
+            'year' => $this->year,
+            'rating' => $this->rating,
+            'description' => $this->description,
+            'lang' => $this->lang
+        ];
+    }
 }

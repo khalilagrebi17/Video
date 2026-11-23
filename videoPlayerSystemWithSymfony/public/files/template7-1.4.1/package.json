@@ -11,7 +11,7 @@
     "url": "https://github.com/nolimits4web/template7.git"
   },
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint ",
     "test": "gulp build && npm run lint"
   },
   "keywords": [

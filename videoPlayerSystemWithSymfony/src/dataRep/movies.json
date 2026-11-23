@@ -6,7 +6,7 @@
     "year": 2017,
     "rating": 8.7,
     "description": "A team travels through a wormhole.",
-    "Lang":"JP"
+    "lang":"JP"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "year": 2017,
     "rating": 9.0,
     "description": "Batman faces the Joker.",
-    "Lang":"JP"
+    "lang":"JP"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "year": 2017,
     "rating": 7.5,
     "description": "Paranormal investigators help a family.",
-    "Lang":"JP"
+    "lang":"JP"
   },
   {
     "id": 4,
@@ -33,6 +33,6 @@
     "year": 2017,
     "rating": 5,
     "description": "Paranormal investigators help a family.",
-    "Lang":"JP"
+    "lang":"JP"
   }
 ]
