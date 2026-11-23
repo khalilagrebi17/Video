@@ -49,7 +49,7 @@ async function getAllMovies() {
 
                     $('#movies').append(
                         "<a class='movie' id='movie-" + i + "'>" +
-                        "<img src='C:/xampp/htdocs/little project/Video/pic.png' alt='video' class='demon-slayer-image'>" +
+                        "<img src='../../storage/pic.png' alt='video' class='demon-slayer-image'>" +
                         "<div class='movie-title'>" + object.title + "</div>" +
                         "<div class='movie-style-one'>" +
                         "<div class='movie-style-sec-line'>" +
