@@ -6,7 +6,8 @@
     "year": 2017,
     "rating": 8.7,
     "description": "A team travels through a wormhole.",
-    "lang":"JP"
+    "lang":"JP",
+    "source":"/storage/Videos/[Anime4up.rest] KNY EP 01 [BD-FHD] [source].mp4"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "year": 2017,
     "rating": 9.0,
     "description": "Batman faces the Joker.",
-    "lang":"JP"
+    "lang":"JP",
+    "source":"/storage/Videos/[Anime4up.rest] KNY EP 02 [BD-FHD] [source].mp4"
   },
   {
     "id": 3,
@@ -24,15 +26,7 @@
     "year": 2017,
     "rating": 7.5,
     "description": "Paranormal investigators help a family.",
-    "lang":"JP"
-  },
-  {
-    "id": 4,
-    "title": "Demon Slayer: Episode 4",
-    "genre": "Horror",
-    "year": 2017,
-    "rating": 5,
-    "description": "Paranormal investigators help a family.",
-    "lang":"JP"
+    "lang":"JP",
+    "source":"/storage/Videos/[Anime4up.rest] KNY EP 03 [BD-FHD] [source].mp4"
   }
 ]
